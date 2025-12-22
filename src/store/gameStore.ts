@@ -276,11 +276,11 @@ export const useGameStore = create<GameStore>()(
 
   canUndo: () => get().history.length > 0,
 
-  toggleTimer: () => set(state => ({ isPlaying: !state.isPlaying })),
+  toggleTimer: () => set(state => ({ isPlaying: !state.gameWon && !state.isPlaying })),
 
   togglePause: () => set(state => ({ isPaused: !state.isPaused })),
   
-  incrementTimer: () => set(state => ({ timer: state.isPlaying && !state.isPaused ? state.timer + 1 : state.timer })),
+  incrementTimer: () => set(state => ({ timer: state.isPlaying && !state.isPaused && !state.gameWon ? state.timer + 1 : state.timer })),
   
   restartGame: () => {
       const { seed } = get();

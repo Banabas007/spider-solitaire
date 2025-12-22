@@ -48,13 +48,13 @@ export const Game: React.FC = () => {
 
   useEffect(() => {
     let interval: ReturnType<typeof setInterval>;
-    if (store.isPlaying) {
+    if (store.isPlaying && !store.gameWon) {
       interval = setInterval(() => {
         store.incrementTimer();
       }, 1000);
     }
     return () => clearInterval(interval);
-  }, [store.isPlaying]);
+  }, [store.isPlaying, store.gameWon]);
 
   const handleCardClick = (pileIndex: number, cardIndex: number) => {
     const pile = store.tableau[pileIndex];
