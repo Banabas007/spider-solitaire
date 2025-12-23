@@ -68,6 +68,33 @@ npm run build
 
 The build artifacts will be stored in the `dist/` directory.
 
+## Docker Deployment
+
+This application can be easily deployed using Docker. The image is automatically built and pushed to Docker Hub on every update to the main branch.
+
+### Using Docker Compose (Recommended)
+
+A `compose.yaml` file is included in the repository for quick deployment.
+
+1. Run the application:
+   ```bash
+   docker compose up -d
+   ```
+
+2. Open your browser and navigate to `http://localhost:8080`.
+
+### Using Docker CLI
+
+You can also run the container directly using the Docker CLI:
+
+```bash
+docker run -d -p 8080:80 --name spider-solitaire lklynet/spider-solitaire:latest
+```
+
+### Automated Builds
+
+This repository is configured with GitHub Actions to automatically build and push the Docker image to Docker Hub (`lklynet/spider-solitaire`) whenever changes are pushed to the `main` branch.
+
 ## Open Source
 
 This project is open source software. We believe in the power of community and transparent development.

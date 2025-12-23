@@ -1,0 +1,6 @@
+services:
+  spider-solitaire:
+    image: lklynet/spider-solitaire:latest
+    ports:
+      - "8080:80"
+    restart: always
